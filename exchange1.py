@@ -7,6 +7,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
+        print("hello")
         Dialog.setObjectName("Dialog")
         Dialog.resize(1040, 454)
         Dialog.setStyleSheet("")
