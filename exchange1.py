@@ -194,3 +194,17 @@ class Ui_Dialog(object):
         self.label_22.setText(_translate("Dialog", "TextLabel"))
         self.label_23.setText(_translate("Dialog", "End Year:"))
         self.label_24.setText(_translate("Dialog", "Start Year:"))
+
+*/
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+Enter file in which to save the key: sampleKey
+
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+
+ls | grep sampleKey
+
+cat sampleKey.pub
+
+pbcopy < ~/sampleKey.pub
